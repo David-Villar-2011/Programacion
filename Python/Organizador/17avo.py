@@ -6,6 +6,7 @@ import subprocess
 ventana = tk.Tk()
 ventana.geometry("550x250+400+200")
 ventana.title("Organizador")
+ventana.overrideredirect(True)
 
 # Guardar la referencia a la imagen de fondo (debe ser un archivo .png que tkinter pueda manejar)
 imagen_fondo = tk.PhotoImage(file="C:\\Users\\david\\OneDrive\\Documents\\GitHub\\Programacion\\Python\\Organizador\\ventana.png")
